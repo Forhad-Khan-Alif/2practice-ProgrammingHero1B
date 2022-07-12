@@ -1,14 +1,26 @@
+body{
+    /* margin: 40px; */
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border: 10px solid orange;
+    border-radius: 5px;
+    background-color: aliceblue;
+    
+}
 #img_w3logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 10%;
 }
-#abbrviation_tag{
+
+#abbrviation_tag {
     text-align: center;
     color: blueviolet;
 }
-#background_colorpractice{
+
+#background_colorpractice {
     color: green;
     background-color: yellow;
     width: 100%;
@@ -16,6 +28,47 @@
     font-size: 20px;
     font-weight: 700;
 }
-span{
+
+span {
     color: gold;
+}
+
+#border_style {
+    border: 5px solid green;
+    border-radius: 5px;
+}
+
+#one_way {
+    margin: 40px;
+}
+
+#two_way {
+    margin: 20px 40px;
+}
+
+#three_way {
+    margin: 20px 100px 80px 60px;
+}
+
+/* evabeo lekha jay margin. */
+/* p{
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+} */
+#css_boxmodel {
+    background-color: white;
+    width: 200px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+#text_align_float_display_inline_block{
+    border: 1px solid purple;
+    border-radius: 20px;
+    margin: 1%;
+    width: 30%;
+    float: left;
+    display: inline-block;
 }
